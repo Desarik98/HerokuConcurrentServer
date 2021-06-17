@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 public class HttpServer implements Runnable {
     private static final HttpServer instance = new HttpServer();
     protected Thread runningThread = null;
-    protected ExecutorService threadPool = Executors.newFixedThreadPool(15);
+    protected ExecutorService threadPool = Executors.newFixedThreadPool(40);
     protected boolean isRunning = true;
     protected ServerSocket serverSocket = null;
     private HttpServer(){}

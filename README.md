@@ -1,6 +1,6 @@
 # Heroku Concurrent HTTP WebServer
 
-Taller en donde se creará un servidor web HTTP que sea capaz de resolver una cantidad de peticiones de manera concurrente mediante el uso de un pool de hilos.
+Taller en donde se creará un servidor web HTTP que sea capaz de resolver una cantidad de peticiones de manera concurrente mediante el uso de un pool de hilos, el cual se montara en la nube de Heroku, para acceder a esta pagina podra hacerlo mediante el apartado de Environments dando click en sheltered-stream-33663 o en el siguiente enlace https://sheltered-stream-33663.herokuapp.com/myPage.html o https://sheltered-stream-33663.herokuapp.com/album/index.html.
 
 ## Instrucciones de Uso
 

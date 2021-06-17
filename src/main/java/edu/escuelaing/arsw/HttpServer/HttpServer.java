@@ -19,11 +19,11 @@ public class HttpServer implements Runnable {
     public static void main(String[] args) throws IOException {
         new Thread(HttpServer.getInstance()).start();
         try {
-            Thread.sleep(200000);
+            Thread.sleep(20);
         }catch (InterruptedException e){
             e.printStackTrace();
         }
-        HttpServer.getInstance().stop();
+        //HttpServer.getInstance().stop();
     }
 
     public void startServer() throws IOException {

@@ -1,4 +1,4 @@
-# Concurrent HTTP WebServer
+# Heroku Concurrent HTTP WebServer
 
 Taller en donde se creará un servidor web HTTP que sea capaz de resolver una cantidad de peticiones de manera concurrente mediante el uso de un pool de hilos.
 

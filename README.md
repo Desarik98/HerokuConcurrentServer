@@ -55,7 +55,6 @@ En las gráficas anteriores podemos ver un contraste con respecto a una página 
 
 ## Autor
 * Daniel Alejandro Mejía Rojas - Fecha: 10/06/2021
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Desarik98/HerokuConcurrentServer)
 
 ## Licencia
 This project is licensed under the CC0 1.0 Universal Creative Commons License - see the LICENSE.md file for details

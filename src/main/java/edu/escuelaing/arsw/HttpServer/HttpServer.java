@@ -27,7 +27,7 @@ public class HttpServer implements Runnable {
     }
 
     public void startServer() throws IOException {
-        int port = 35000;
+        int port = getPort();
         try {
             serverSocket = new ServerSocket(port);
             Socket clientSocket;
@@ -63,5 +63,12 @@ public class HttpServer implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    static int getPort(){
+        if(System.getenv("PORT") != null){
+            return Integer.parseInt(System.getenv("PORT"));
+        }
+        return 36000;
     }
 }
